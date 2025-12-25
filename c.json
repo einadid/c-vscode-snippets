@@ -1,0 +1,130 @@
+{
+  "C Main Program": {
+    "prefix": "cmain",
+    "body": [
+      "#include <stdio.h>",
+      "",
+      "int main()",
+      "{",
+      "    $0",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Basic C main program"
+  },
+
+  "Include StdIO": {
+    "prefix": "inclu",
+    "body": [
+      "#include <stdio.h>"
+    ],
+    "description": "Include stdio header"
+  },
+
+  "Scanf Int": {
+    "prefix": "scan",
+    "body": [
+      "scanf(\"%d\", &${1:var});"
+    ],
+    "description": "Scan integer input"
+  },
+
+  "Printf Int": {
+    "prefix": "print",
+    "body": [
+      "printf(\"%d\\n\", ${1:var});"
+    ],
+    "description": "Print integer output"
+  },
+
+  "For Loop": {
+    "prefix": "fori",
+    "body": [
+      "for (int i = 0; i < ${1:n}; i++)",
+      "{",
+      "    ${2:// code}",
+      "}"
+    ],
+    "description": "For loop"
+  },
+
+  "While Loop": {
+    "prefix": "wh",
+    "body": [
+      "while (${1:condition})",
+      "{",
+      "    ${2:// code}",
+      "}"
+    ],
+    "description": "While loop"
+  },
+
+  "If Else": {
+    "prefix": "ifel",
+    "body": [
+      "if (${1:condition})",
+      "{",
+      "    ${2:// code}",
+      "}",
+      "else",
+      "{",
+      "    ${3:// code}",
+      "}"
+    ],
+    "description": "If else condition"
+  },
+
+  "Else If Ladder": {
+    "prefix": "elif",
+    "body": [
+      "if (${1:condition})",
+      "{",
+      "    ${2:// code}",
+      "}",
+      "else if (${3:condition})",
+      "{",
+      "    ${4:// code}",
+      "}",
+      "else",
+      "{",
+      "    ${5:// code}",
+      "}"
+    ],
+    "description": "Else if ladder"
+  },
+
+  "Switch Case": {
+    "prefix": "sw",
+    "body": [
+      "switch (${1:variable})",
+      "{",
+      "    case ${2:value}:",
+      "        ${3:// code}",
+      "        break;",
+      "",
+      "    default:",
+      "        ${4:// code}",
+      "}"
+    ],
+    "description": "Switch case structure"
+  },
+
+  "Array Input": {
+    "prefix": "arrin",
+    "body": [
+      "int ${1:a}[${2:n}];",
+      "for (int i = 0; i < ${2:n}; i++)",
+      "{",
+      "    scanf(\"%d\", &${1:a}[i]);",
+      "}"
+    ],
+    "description": "Array input"
+  },
+
+  "Array Print": {
+    "prefix": "arrout",
+    "body": [
+      "for (int i = 0; i < ${1:n}; i++)",
+      "{",
+      "    printf(\"%d \", ${2:a}[i]);",
+      "}"
