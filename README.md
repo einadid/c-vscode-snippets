@@ -1,54 +1,56 @@
 # C VS Code Snippets 🚀
 
 A beginner-friendly collection of **C language snippets** for **Visual Studio Code**.
-Save time, avoid typing mistakes, and code faster.
+These snippets help you write C code faster and avoid repetitive typing.
 
 ---
 
-## 📦 What’s Included
+## 📦 What’s Inside
 - C main program
+- printf / scanf
 - for / while / do-while loops
-- if-else & else-if ladder
-- switch-case
-- array input/output
-- scanf / printf
+- if else & else-if ladder
+- switch case
+- array input & output
 - function template
 - comment block
 
 ---
 
-## 🛠 How to Use (VS Code)
+## 🛠 How to Use in VS Code
 
 1. Open **VS Code**
 2. Press `Ctrl + Shift + P`
 3. Select **Preferences: Configure User Snippets**
 4. Choose **c**
-5. Paste all snippets from `c.json`
-6. Save the file
+5. Copy all code from `c.json`
+6. Paste it into the file and save
 
-Now type a **prefix** and press **Tab** 🎉
+Now type a prefix and press **Tab** 🎉
 
 ---
 
-## 🔑 Popular Prefixes
+## 🔑 Available Prefixes
 cmain → C main function
+inclu → #include <stdio.h>
+pri → printf with BitMarq
+prib → printf BitMarq text
+scan → scanf
 fori → for loop
-ifel → if else
 wh → while loop
+ifel → if else
+elif → else if ladder
+sw → switch case
 arrin → array input
 arrout → array output
-
-
----
-
-## 🎥 Video Tutorial
-Watch the full tutorial on Instagram:
-👉 bitmarq 
-follow for more content
+sum → sum of array
+func → function template
+dowh → do while loop
 
 ---
 
-## 🤝 Contribution
-Feel free to suggest new snippets or improvements.
+## 🎥 Tutorial
+Follow my Instagram / YouTube for short tutorials and tips.
 
 Happy Coding 💻✨
+
