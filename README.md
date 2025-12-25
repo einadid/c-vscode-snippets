@@ -31,3 +31,24 @@ Now type a **prefix** and press **Tab** 🎉
 ---
 
 ## 🔑 Popular Prefixes
+cmain → C main function
+fori → for loop
+ifel → if else
+wh → while loop
+arrin → array input
+arrout → array output
+
+
+---
+
+## 🎥 Video Tutorial
+Watch the full tutorial on Instagram:
+👉 bitmarq 
+follow for more content
+
+---
+
+## 🤝 Contribution
+Feel free to suggest new snippets or improvements.
+
+Happy Coding 💻✨
